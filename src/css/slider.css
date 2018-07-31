@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.slider-wrapper {
+  position: relative;
+  margin: 10px auto;
+  width: 605px;
+  height: 340px;
+  overflow: hidden;
+}
+.slider-wrapper .sliders {
+  list-style: none;
+  position: absolute;
+  height: 100%;
+  margin: 0;
+}
+.slider-wrapper .sliders .slider {
+  float: left;
+  width: 605px;
+  height: 100%;
+}
+.slider-wrapper .sliders .slider img {
+  width: 100%;
+  height: 100%;
+}
+.slider-wrapper .slider-arrows {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  top: 50%;
+  margin-top: -20px;
+}
+.slider-wrapper .slider-arrows .arrows {
+  width: 20px;
+  height: 40px;
+  line-height: 42px;
+  text-align: center;
+  font-size: 18px;
+  background-color: rgba(238, 238, 238, 0.5);
+  cursor: pointer;
+  user-select: none;
+}
+.slider-wrapper .slider-arrows .arrows:hover {
+  background-color: #ccc;
+}
+.slider-wrapper .slider-arrows .arrows-left {
+  float: left;
+}
+.slider-wrapper .slider-arrows .arrows-right {
+  float: right;
+}
+.slider-wrapper .slider-dots {
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 0 8px 8px 0;
+  list-style: none;
+  text-align: center;
+}
+.slider-wrapper .slider-dots .slider-dot {
+  width: 15px;
+  height: 15px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 8px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+.slider-wrapper .slider-dots .slider-dot:hover,
+.slider-wrapper .slider-dots .slider-dot.active {
+  background-color: #8a8a8a;
+}
+/*# sourceMappingURL=slider.css.map */
